@@ -12,7 +12,7 @@ spec:
       labels:
         app: my-busybox
     spec:
-      serviceAccountName: kubectl-sa
+      serviceAccountName: kube-proxy
       containers:
       - name: busybox
         image: bitnami/kubectl:latest
