@@ -12,7 +12,7 @@ spec:
       labels:
         app: my-busybox
     spec:
-      serviceAccountName: kube-proxy
+      serviceAccountName: argocd-application-controller
       containers:
       - name: busybox
         image: bitnami/kubectl:latest
